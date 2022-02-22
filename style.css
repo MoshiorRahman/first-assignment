@@ -5,3 +5,47 @@ font-family: 'Redressed', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;
 }
+h1{
+    font-size: 50px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.link-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkorange;
+    border-radius: 8px;
+    
+}
+
+.salmon{
+    color: salmon;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top-section{
+    display: flex;
+    margin: 20px;
+}
+
+img{
+    width: 80%;
+}
+
+.left-line{
+    border-left: 4px solid;
+    border-image: linear-gradient(salmon,Red);
+    border-image-slice: 1;
+}
+.left-line h1{
+    margin-left: 20px;
+}
+
