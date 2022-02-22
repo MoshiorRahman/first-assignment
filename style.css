@@ -11,6 +11,9 @@ section{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 p{
     margin-top: 20px;
     margin-bottom: 40px;
@@ -87,4 +90,22 @@ img{
 }
 .development-details{
     padding-top: 60px;
+}
+
+.global-community-area{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.global-community-details{
+    padding-right: 100px;
+}
+
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
