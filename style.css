@@ -49,3 +49,21 @@ img{
     margin-left: 20px;
 }
 
+.my-mission-area h1{
+    text-align: center;
+}
+.my-mission{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mission-item{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+.mission-item img{
+    width: 40%;
+}
