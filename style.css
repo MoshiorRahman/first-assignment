@@ -1,3 +1,4 @@
+/* .....Basic Style for All code...... */
 body{
     font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
@@ -19,6 +20,10 @@ p{
     margin-bottom: 40px;
 }
 
+img{
+    width: 80%;
+}
+
 .link-btn{
     text-decoration: none;
     padding: 10px 30px;
@@ -36,15 +41,16 @@ p{
     margin-left: 5%;
     margin-right: 5%;
 }
+/* .....Basic Style For All Code End........ */
 
+
+
+/* ......Top Section Style Start......... */
 .top-section{
     display: flex;
     margin: 20px;
 }
 
-img{
-    width: 80%;
-}
 
 .left-line{
     border-left: 4px solid;
@@ -54,16 +60,20 @@ img{
 .left-line h1{
     margin-left: 20px;
 }
+/* ....Top Section Style End here...... */
 
-.my-mission-area h1{
-    text-align: center;
-}
+
+
+/* ......Section-2 Style Start........ */
 .my-mission{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-left: 5%;
   margin-right: 5%;
+}
+.my-mission-area h1{
+    text-align: center;
 }
 .mission-item{
     border-radius: 10px;
@@ -81,8 +91,10 @@ img{
 #goals{
     background-color: #f8aa8d;
 }
+/* ....Section-2 Style end here..... */
 
 
+/* ......Section-3 Development Without Limits Style Start...... */
 .unilimited-development{
     display: flex;
     margin-left: 5%;
@@ -94,7 +106,10 @@ img{
 .development-details{
     padding-top: 60px;
 }
+/* ......Section-3 Style End here...... */
 
+
+/* .......Section-4 Our Global Community style Start......  */
 .global-community-area{
     display: flex;
     justify-content: center;
@@ -107,7 +122,11 @@ img{
 .global-community-area img{
     
 }
+/* .......Section-4 Style end here...... */
 
+
+
+/* .....Section-5 Contact Us Section Style Start...... */
 .contact-us{
     margin-right: 5%;
     margin-left: 5%;
@@ -141,11 +160,14 @@ img{
 .detail{
     display: block;
 }
+/* ....Section-5 style end here..... */
 
 
+/* ....Footer stye Start..... */
 .footer{
     padding: 20px;
     color: white;
     background-color: black;
     text-align: center;
 }
+/* .......Footer Style end here.... */
