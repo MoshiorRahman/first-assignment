@@ -88,6 +88,9 @@ img{
     margin-left: 5%;
     margin-right: 5%;
 }
+.unilimited-development img{
+    padding-top: 20px;
+}
 .development-details{
     padding-top: 60px;
 }
@@ -96,12 +99,49 @@ img{
     display: flex;
     justify-content: center;
     margin-left: 5%;
-    margin-right: 5%;
 }
 
 .global-community-details{
     padding-right: 100px;
 }
+.global-community-area img{
+    
+}
+
+.contact-us{
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us h1{
+    color: #7cd8f7;
+}
+
+#contact-left{
+    width: 55%;
+    padding-right: 10px;
+}
+#contact-right{
+    width: 35%;
+    padding-left: 20px;
+}
+.input-fuild{
+    width: 50%;
+    margin: 5px 0px 10px 0px;
+    padding: 10px 30px;
+    border: 1px solid lightblue;
+}
+#message-fuild{
+    padding: 50px 0px;
+    width: 54%;
+    margin-bottom: 30px;
+}
+.detail{
+    display: block;
+}
+
 
 .footer{
     padding: 20px;
